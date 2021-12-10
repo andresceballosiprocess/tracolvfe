@@ -42,10 +42,10 @@ const Home = () => {
 
   
     }
-    const fecha=new Date
+    const fecha=new Date()
     return (
         <div className="contenedor-home"> 
-            <img className="home__logo" src={logo}></img>
+            <img className="home__logo" src={logo} alt="logo"></img>
             <h1 className="home__title">Verificación de actas</h1>
             <form onSubmit={enviarDatos} className="home__form">
                 <div className="home__form-div-input">
